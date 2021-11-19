@@ -1,0 +1,12 @@
+name: Slack Message
+description: Send message to Slack via webhook
+runs:
+  using: node12
+  main: index.js
+branding:
+  icon: chevron-up
+  color: blue
+inputs:
+  status:
+    description: 'Pass job.status here'
+    required: true
