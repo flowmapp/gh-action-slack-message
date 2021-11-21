@@ -1,4 +1,36 @@
 {
+  "adenisovFM": {
+    "name": "Andrey Denisov",
+    "slackId": "U015K6XHD9R"
+  },
+  "Antelit-fm": {
+    "name": "Nikita Yakovlev",
+    "slackId": "U01FEDTHHHD"
+  },
+  "CoonJS": {
+    "name": "Roman Babanov",
+    "slackId": "U023Q357AP6"
+  },
+  "corsikFM": {
+    "name": "Igor Aleksandrovich",
+    "slackId": "U01548GFXU7"
+  },
+  "evsevolodov": {
+    "name": "Evgeniy Vsevolodov",
+    "slackId": "U023Q3363UL"
+  },
+  "EugenMyltsin": {
+    "name": "Eugen Myltsin",
+    "slackId": "U8HCK4F5Y"
+  },
+  "FMvadim": {
+    "name": "Vadim Kirienko",
+    "slackId": "UQTBY4L4R"
+  },
+  "NikolskyGeorgy": {
+    "name": "Georgy Nikolsky",
+    "slackId": "U8GNH8J9W"
+  },
   "PickRelated-FM": {
     "name": "Igor Tatarintsev",
     "slackId": "U01RCBBHGVC"
