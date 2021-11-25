@@ -10,6 +10,7 @@ module.exports = () => {
     GITHUB_RUN_NUMBER: runNumber,
     SLACK_WEBHOOK_URL: url,
     INPUT_STATUS: status,
+    INPUT_CYPRESSDASHBOARDURL: cypressDashboardURL,
   } = process.env
 
   const color = status === 'success' ? 'good' : 'danger'
@@ -20,8 +21,9 @@ module.exports = () => {
   const statusText = status === 'success' ? 'succeeded' : 'failed'
   const jobLink = `<https://github.com/${repo}/actions/runs/${runId} | Pipeline #${runNumber}>`
 
+  const testResultsText = cypressDashboardURL ? `\nSee results at ${cypressDashboardURL}` : ''
   const postData = JSON.stringify({
-    text: `Pipeline ${statusText} by ${userMention}`,
+    text: `Pipeline ${statusText} by ${userMention}${testResultsText}`,
     mrkdwn: true,
     link_names: 1,
     attachments: [

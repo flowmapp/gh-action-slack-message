@@ -10,3 +10,6 @@ inputs:
   status:
     description: 'Pass job.status here'
     required: true
+  cypressDashboardURL:
+    description: 'If present - it will be attached to the message'
+    required: false
