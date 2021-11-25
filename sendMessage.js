@@ -21,7 +21,7 @@ module.exports = () => {
   const statusText = status === 'success' ? 'succeeded' : 'failed'
   const jobLink = `<https://github.com/${repo}/actions/runs/${runId} | Pipeline #${runNumber}>`
 
-  const testResultsText = cypressDashboardURL ? `\nSee results at ${cypressDashboardURL}` : ''
+  const testResultsText = cypressDashboardURL ? `\n<${cypressDashboardURL} | See results>` : ''
   const postData = JSON.stringify({
     text: `Pipeline ${statusText} by ${userMention}${testResultsText}`,
     mrkdwn: true,
