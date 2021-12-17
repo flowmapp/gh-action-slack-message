@@ -22,7 +22,7 @@ module.exports = () => {
   const jobLink = `<https://github.com/${repo}/actions/runs/${runId} | Pipeline #${runNumber}>`
 
   const testResultsText = cypressDashboardURL
-    ? `\n<${cypressDashboardURL.replace(/\[\d{1,3}m/g, '')} | See results>`
+    ? `\n<${cypressDashboardURL.replace(/\[\d{1,3}m/g, '').trim()} | See results>`
     : ''
   const postData = JSON.stringify({
     text: `Pipeline ${statusText} by ${userMention}${testResultsText}`,
