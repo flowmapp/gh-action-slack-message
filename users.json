@@ -3,10 +3,6 @@
     "name": "Andrey Denisov",
     "slackId": "U015K6XHD9R"
   },
-  "Antelit-fm": {
-    "name": "Nikita Yakovlev",
-    "slackId": "U01FEDTHHHD"
-  },
   "CoonJS": {
     "name": "Roman Babanov",
     "slackId": "U023Q357AP6"
@@ -15,10 +11,6 @@
     "name": "Eugen Myltsin",
     "slackId": "U8HCK4F5Y"
   },
-  "kzotov": {
-    "name": "Konstantin Zotov",
-    "slackId": "U030MMZFUMD"
-  },
   "KateShabalina": {
     "name": "Ekaterina Shabalina",
     "slackId": "U032QSGNMTQ"
@@ -26,5 +18,9 @@
   "PickRelated-FM": {
     "name": "Igor Tatarintsev",
     "slackId": "U01RCBBHGVC"
+  },
+  "RostislavBartenev": {
+    "name": "Rostislav Bartenev",
+    "slackId": "U02AD9P1GQ6"
   }
 }
