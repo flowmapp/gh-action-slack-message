@@ -1,7 +1,7 @@
 name: Slack Message
 description: Send message to Slack via webhook
 runs:
-  using: node12
+  using: node20
   main: index.js
 branding:
   icon: chevron-up
